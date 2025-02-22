@@ -79,3 +79,11 @@ footer {
   height: 200px;
   background-color: gainsboro;
 }
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+  color: white;
+}
