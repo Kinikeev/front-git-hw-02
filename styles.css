@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
 html,
@@ -42,6 +43,23 @@ header {
   color: rgb(144, 9, 9);
   font-size: 30px;
   padding: 30px;
+}
+
+.app-logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header-navigtion {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.header-navigtion > a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 main {
