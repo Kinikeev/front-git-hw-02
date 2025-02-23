@@ -67,9 +67,30 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   flex: 1;
-  gap: 20px;
+  gap: 40px;
   padding: 140px 20px 20px 20px;
   background-color: bisque;
+}
+
+.card {
+  width: 400px;
+  height: 600px;
+  padding: 20px;
+  border: 2px dashed rgb(234, 12, 49);
+  border-radius: 65px;
+  /* margin: 30px; */
+  background-color: rgb(161, 161, 244);
+}
+
+.card > h4 {
+  text-align: center;
+  font-size: 24px;
+}
+
+img {
+  width: 360px;
+  margin-bottom: 50px;
+  border-radius: 50px;
 }
 
 footer {
